@@ -1,2 +1,6 @@
 "use strict";
-alert('text!');
+
+let name = 'Dima';
+let lastName = 'Rybalchenko';
+
+alert(name + lastName);
