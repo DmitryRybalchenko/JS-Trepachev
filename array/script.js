@@ -40,6 +40,6 @@
 // №1⊗jsPmArOD
 // Дан массив:
 // Удалите из него два элемента. Проверьте, какое станет значение свойства length после этого.
-let arr = ['a', 'b', 'c', 'd', 'e'];
-delete arr[0];
-console.log(arr.length, arr);
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// delete arr[0];
+// console.log(arr.length, arr);
