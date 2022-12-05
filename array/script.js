@@ -31,8 +31,15 @@
 // Дан следующий массив:
 // Даны также переменные:
 // Найдите сумму элементов, ключи которых хранятся в наших переменных.
-let arr = [1, 2, 3, 4, 5];
-let key1 = 1;
-let key2 = 2;
-let res = arr[key1] + arr[key2];
-console.log(res);
+// let arr = [1, 2, 3, 4, 5];
+// let key1 = 1;
+// let key2 = 2;
+// let res = arr[key1] + arr[key2];
+// console.log(res);
+
+// №1⊗jsPmArOD
+// Дан массив:
+// Удалите из него два элемента. Проверьте, какое станет значение свойства length после этого.
+let arr = ['a', 'b', 'c', 'd', 'e'];
+delete arr[0];
+console.log(arr.length, arr);
