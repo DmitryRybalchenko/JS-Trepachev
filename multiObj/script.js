@@ -58,17 +58,17 @@
 // №3⊗jsPmMuOb
 // Дан следующий объект:
 
-let obj = {
-	key1: {
-		a: 1, b: 2, c: {
-			d: 3,
-			e: 4,
-		}, f: 5,
-	},
-	key2: {
-		g: 6, h: 7,
-	},
-}
+// let obj = {
+// 	key1: {
+// 		a: 1, b: 2, c: {
+// 			d: 3,
+// 			e: 4,
+// 		}, f: 5,
+// 	},
+// 	key2: {
+// 		g: 6, h: 7,
+// 	},
+//}
 // // Вручную, без цикла, найдите сумму всех элементов-чисел.
 // let key1 = obj['key1'];
 // let key2 = obj['key2'];
@@ -76,4 +76,4 @@ let obj = {
 // let sum = key1['a'] + key1['b'] + key1['f'] + c['d'] + c['e'] + key2['g'] + key2['h'];
 // console.log(sum);
 
-console.log(obj.key1.a + obj.key1.b + obj.key1.c.e + obj.key1.c.d + obj.key1.f + obj.key2.g + obj.key2.h);
+// console.log(obj.key1.a + obj.key1.b + obj.key1.c.e + obj.key1.c.d + obj.key1.f + obj.key2.g + obj.key2.h);
