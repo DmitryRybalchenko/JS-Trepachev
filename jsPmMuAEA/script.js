@@ -27,3 +27,5 @@
 // })
 
 // console.log(employees);
+
+// const showRS = (year, quarter) => {return year + quarter}
