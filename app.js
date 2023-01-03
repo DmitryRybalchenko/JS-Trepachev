@@ -58,3 +58,86 @@
 // numbers.pop(numbers[numbers.length - 1]);
 // numbers.push(7, 8);
 // console.log(numbers);
+
+// function grow(x){
+//   return x.reduce((acum, elem) => acum *= elem);
+// }
+
+// console.log(grow([1, 2, 3]))
+
+// function findSmallestInt(args) {
+//   let min = args[0];
+//   for(let i = 0; i < args.length; i++){
+//     if(min > args[i]){
+//       min = args[i];
+//     }
+//   }
+//   return min;
+// }
+
+// findSmallestInt([78,56,232,12,8]);
+
+// function summation(num) {
+//   // let sum = 0;
+//   // for(let i = 1; i <= num; i++){
+//   //   sum += i;
+//   //   console.log(i);
+//   // }
+//   // console.log(sum);
+//   // return sum;
+//   return toString(num).reduce((sum, item) => sum += item);
+// }
+
+// summation(2);
+
+// const dog = {
+//   name: 'жуля',
+//   age: 0,
+//   color: 'Черный с белым',
+//   weight: 2
+// }
+
+// dog['breed'] = 'Двортерер';
+
+// console.log(dog);
+
+// const htmlDiv = {
+//   className: 'column',
+//   rel: 'main',
+//   id: 'block',
+// };
+
+// for(let key in htmlDiv){
+//   console.log(htmlDiv[key]);
+// }
+
+// const person = {
+//   name: 'Anna',
+//   surname: 'Dance',
+//   age: 18,
+//   greeting(){
+//     console.log('Hello');
+//   },
+//   changeSurname(surname){
+//     this.surname = surname;
+//   }
+// };
+
+// 1.
+// const correctAnswer = 'JavaScript';
+// const userAnswer = ' javaScript! ';
+
+// const isCorrect = userAnswer.toLowerCase().includes(correctAnswer.toLowerCase()); //TODO: сохранить true или false в зависимости от выполнения условия по заданию 1.
+// console.log(isCorrect);
+
+// const salary = 3;
+// const salaryFixed = salary.toFixed(2);
+// console.log(salaryFixed);
+
+// const fruits = ['apple', 'banana', 'melon', 'orange'];
+// const hasOrange = fruits.includes('orange');
+
+// const cars = ['BMW', 'Nissan', 'VW', 'Skoda', 'Audi', 'Kia'];
+// const favoriteCars = cars.filter((item, index) => index < 3);
+
+// const otherCars = cars.reverse().filter((item, index) => index < 3);
