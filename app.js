@@ -141,3 +141,49 @@
 // const favoriteCars = cars.filter((item, index) => index < 3);
 
 // const otherCars = cars.reverse().filter((item, index) => index < 3);
+
+// const average = function(...args){
+//   let sum = args.reduce((acum, index) => acum += index);
+//   return sum / args.length;
+// }
+
+// console.log(average(2, 4, 4, 2));
+
+// let arr = [1,2,3,5,3];
+// let counter = 0;
+
+// function getLength (arr){
+//   let res = arr.pop();
+//   if(res === undefined){
+//     return counter;
+//   }
+//   counter++;
+//   return getLength(arr);
+// }
+
+// console.log(getLength(arr));
+
+// function addByX(num){
+//   let sum = (num1) => num + num1;
+//   return sum;
+// }
+
+// const addByTwo = addByX(2);
+// addByTwo(3); // 5
+// addByTwo(5); // 7
+
+
+const supporter1 = {
+  club: 'Milan',
+  
+  chant() {
+      setTimeout(() => console.log(this.club), 1000);
+  }
+}
+
+const supporter2 = {
+  club: 'Inter'
+}
+
+supporter2.chant = supporter1.chant.bind(supporter2);
+console.log(supporter2.chant());
